@@ -34,4 +34,17 @@ int main(void)
 				putchar(b + '0');
 				putchar(32);
 				putchar(c + '0');
+				putchar(d + '0');
 
+				if (!(a == 9 && b == 8))
+				{
+					putchar(44);
+					putchar(32);
+				}
+			}
+		}
+	}
+	putchar(10);
+
+	return (0);
+}
